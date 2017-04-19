@@ -2,4 +2,6 @@
 *.sl
 *.o
 *.out
+main_adaptive_eq
+a.out
 

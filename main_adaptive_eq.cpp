@@ -227,10 +227,10 @@ int main( int argc, char *argv[] ) {
 
         cout << setfill(' ') << setw(2) << (long)(t/t_max*100) << "%" << "    ";
         cout << "E=" << E(t)
-//             << " I=" << I_el * area * F
+             << " I=" << I_el * area * F
              << " IS=" << I_sam * area * F
              << " kS=" << kSAM
-             << " Gox=" << Gox
+//             << " Gox=" << Gox
              << " dt=" << dt
              << " (" << setfill('0') << setw(2) << hrs << ":"
              << setw(2) << min << ":"
